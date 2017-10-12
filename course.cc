@@ -3,6 +3,12 @@
 	course.
 		John Dolan		School of EECS		Summer2013
 **************************************************************************/
+
+/**
+*@file course.cc
+*Contains functions for the course class.
+*/
+
 #include "course.h"
 #include<cstdlib>
 #include<iostream>

@@ -12,6 +12,11 @@
 	John Dolan			Spring 2015
 **********************************************************/
 
+/**
+*@file collegemain.cc
+*Creates and holds a list of college courses.
+*/
+
 #include <iostream>
 #include <fstream>
 #include <string>

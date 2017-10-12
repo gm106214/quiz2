@@ -4,6 +4,12 @@
 //CS 2401
 //10/8/2015
 //********************
+
+/**
+*@file college.cc
+*Contains functions for the College class.
+*/
+
 #include "college.h"
 #include<cstdlib>
 #include<iostream>
@@ -11,11 +17,21 @@
 #include<string>
 using namespace std;
 
+/**
+ *Constructor for the College class
+ *@param[in] s A string containing the value to be placed in name.
+ *@return A constructed object of type College
+ */
+
 College::College(std::string s){
 	name = s;
 	head = NULL;
 }
 
+/**
+ *Destructor for the College class
+ *@return No return, frees the memory the object was using.
+ */
 
 College::~College(){
 	node * rmptr;
@@ -25,6 +41,12 @@ College::~College(){
 		delete rmptr;
 	}
 }
+
+/**
+ *Copy Constructor for the College class
+ *@param[in] other An object of type College.
+ *@return A new object of type College identical to other.
+ */
 
 College::College(const College& other){
 	if(other.head == NULL){

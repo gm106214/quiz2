@@ -5,6 +5,11 @@
 //10/8/2015
 //********************
 
+/**
+*@file college.h
+*Header file for the College class.
+*/
+
 #include <iostream>
 #include <fstream>
 #include <string>

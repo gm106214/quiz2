@@ -7,6 +7,11 @@
 		John Dolan	School of EECS		Summer 2013
 ************************************************************************/
 
+/**
+*@file course.h
+*Header file for the course class.
+*/
+
 #include<iostream>
 #include<string>
 #ifndef COURSE_H

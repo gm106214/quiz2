@@ -8,6 +8,11 @@
 	John Dolan			Ohio University 
 ********************************************************************/
 
+/**
+*@file tarray.h
+*Contains the Tarray template class
+*/
+
 #include<iostream>
 
 template<class T>

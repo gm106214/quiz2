@@ -5,6 +5,11 @@
                 John Dolan  		March 2009
 *************************************************************************/
 
+/**
+*@file node.h
+*Contains the node class.
+*/
+
 #ifndef NODE_H
 #define NODE_H
 #include "course.h"
